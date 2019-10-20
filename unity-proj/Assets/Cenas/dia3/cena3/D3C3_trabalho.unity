@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 393904480}
   - component: {fileID: 393904479}
   - component: {fileID: 393904483}
+  - component: {fileID: 393904484}
   m_Layer: 0
   m_Name: cena
   m_TagString: Untagged
@@ -216,6 +217,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &393904484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393904478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61db91ddb928e0f4996f2d0318008d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragonBonesScript: {fileID: 464793719}
+--- !u!114 &464793719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7330430612438051541, guid: b73d3c515a6062a408bba8cec6799efc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1713981753}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f825bb5ce93d6ab429dfa508444119b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &608959651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -227,6 +253,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972735846357808436, guid: 749dd865f1ed5ad4f8616024033588d7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 215134487189190138, guid: 749dd865f1ed5ad4f8616024033588d7,
         type: 3}
@@ -556,12 +587,12 @@ PrefabInstance:
     - target: {fileID: 2390374648273673621, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -10.04
       objectReference: {fileID: 0}
     - target: {fileID: 2390374648273673621, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -6.68
       objectReference: {fileID: 0}
     - target: {fileID: 2390374648273673621, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}
@@ -1117,7 +1148,6 @@ GameObject:
   - component: {fileID: 1739734815}
   - component: {fileID: 1739734814}
   - component: {fileID: 1739734813}
-  - component: {fileID: 1739734816}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1190,19 +1220,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1739734816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739734812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c125f072b316f34887aea5eb243e688, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MenuPauseUI: {fileID: 0}
 --- !u!1 &2019528578
 GameObject:
   m_ObjectHideFlags: 0
