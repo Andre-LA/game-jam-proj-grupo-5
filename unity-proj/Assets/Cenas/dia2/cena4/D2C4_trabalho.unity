@@ -360,7 +360,6 @@ MonoBehaviour:
   indice: -1
   sequencia:
   - D2C4_trabalho_e3_1
-  - D2C4_trabalho_e4_1
 --- !u!1 &334655035
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +407,6 @@ MonoBehaviour:
   indice: -1
   sequencia:
   - D2C4_trabalho_e1_1
-  - D2C4_trabalho_e4_1
 --- !u!114 &583591056 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7330430612438051541, guid: b73d3c515a6062a408bba8cec6799efc,
@@ -873,6 +871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Aurora raiz
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330430612438051541, guid: b73d3c515a6062a408bba8cec6799efc,
+        type: 3}
+      propertyPath: _flipX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2390374648273673621, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}
@@ -1474,11 +1477,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7330430612438051541, guid: b73d3c515a6062a408bba8cec6799efc,
-        type: 3}
-      propertyPath: _flipX
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 981279019637043276, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}
       propertyPath: dirty
@@ -1648,7 +1646,6 @@ MonoBehaviour:
   indice: -1
   sequencia:
   - D2C4_trabalho_e2_1
-  - D2C4_trabalho_e4_1
 --- !u!1 &1879024614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,6 +1946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: animationName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407583408692955813, guid: 82c2128846749a54b97c6075aed4f633,
+        type: 3}
+      propertyPath: _flipX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8354649861878398090, guid: 82c2128846749a54b97c6075aed4f633,
         type: 3}

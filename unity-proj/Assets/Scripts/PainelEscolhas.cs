@@ -65,8 +65,7 @@ public class PainelEscolhas : MonoBehaviour
             
             txtId = txtId.Substring(1);
         }
-        
-        Debug.Log("::::");
+       
     
         alternativas.SetActive(false);
         txt.SetActive(true);
