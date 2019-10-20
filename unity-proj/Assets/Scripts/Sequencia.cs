@@ -19,7 +19,6 @@ public class Sequencia : MonoBehaviour
     
     public void Proximo()
     {
-        Debug.Log(">>>>>>>>>" + indice.ToString(), gameObject);
         indice += 1;
         if (indice < sequencia.Length)
             ativadorCenaAlvo.estadoAnim = sequencia[indice];
