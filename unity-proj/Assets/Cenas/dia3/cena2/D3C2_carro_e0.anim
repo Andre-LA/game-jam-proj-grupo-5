@@ -1043,6 +1043,27 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0
+    functionName: EmitirEfeitoSonoro
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 11
+    messageOptions: 0
+  - time: 1.4333333
+    functionName: LimparEfeitoSonoro
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 11
+    messageOptions: 0
+  - time: 1.4833333
+    functionName: EmitirEfeitoSonoro
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 12
+    messageOptions: 0
   - time: 1.5333333
     functionName: AbrirTexto
     data: "Mas que droga viu! N\xE3o sabe dirigir n\xE3o?! Ah, tinha que ser mulher..."
@@ -1056,6 +1077,13 @@ AnimationClip:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
+    messageOptions: 0
+  - time: 2.1666667
+    functionName: EmitirEfeitoSonoro
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 3
     messageOptions: 0
   - time: 6.95
     functionName: AbrirEscolhas

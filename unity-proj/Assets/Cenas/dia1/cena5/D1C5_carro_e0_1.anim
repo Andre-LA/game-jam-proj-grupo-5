@@ -138,6 +138,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.05
+    functionName: EmitirEfeitoSonoro
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 11
+    messageOptions: 0
   - time: 4.9666667
     functionName: FadePraPreto
     data: 

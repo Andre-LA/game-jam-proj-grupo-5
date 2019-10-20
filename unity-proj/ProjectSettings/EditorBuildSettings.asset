@@ -78,24 +78,6 @@ EditorBuildSettings:
     path: Assets/Cenas/dia5/cena5/D5C5_quarto.unity
     guid: 152df2bef60f1184f9f9a2400bf59f58
   - enabled: 1
-    path: Assets/Cenas/dia6/cena1/D6C1_quarto.unity
-    guid: 89bc555162afc3e4ab51b178d52a90c2
-  - enabled: 1
-    path: Assets/Cenas/dia6/cena2/D6C2_taxi.unity
-    guid: 29c537f02754d3d4a94760c5fbecbd64
-  - enabled: 1
-    path: Assets/Cenas/dia6/cena3/D6C3_trabalho.unity
-    guid: 915e6ac8107dc774c94f3c3dbb11d4a4
-  - enabled: 1
-    path: Assets/Cenas/dia6/cena4/D6C4_taxi.unity
-    guid: 5b626b55eaeb49c4599afbef7e206095
-  - enabled: 1
-    path: Assets/Cenas/dia6/cena5/D6C5_sala.unity
-    guid: 0223b144cd39dc148a4675c7f03e5fcd
-  - enabled: 1
-    path: Assets/Cenas/dia6/cena6/D6C6_quarto.unity
-    guid: 863806122f22d464994cc55f3204c541
-  - enabled: 1
     path: Assets/Cenas/dia7/cena1/D7C1_quarto.unity
     guid: 4b26f0a5700c26840824f3c0cb7ebf78
   - enabled: 1

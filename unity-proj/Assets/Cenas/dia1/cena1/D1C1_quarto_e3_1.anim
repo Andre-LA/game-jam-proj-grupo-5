@@ -496,6 +496,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 2.4
+    functionName: EmitirEfeitoSonoro
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 10
+    messageOptions: 0
   - time: 2.45
     functionName: PararAnim
     data: 

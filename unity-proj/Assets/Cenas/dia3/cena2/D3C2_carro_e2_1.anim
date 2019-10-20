@@ -133,7 +133,7 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: AbrirTexto
-    data: "* Alguns gritos de fundo inatend\xEDveis *"
+    data: "* Alguns gritos de fundo inaud\xEDveis *"
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

@@ -673,6 +673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8892871470697021398, guid: 4d14bb081f1654a469371038e75cff9c,
         type: 3}
+      propertyPath: sequenciasPossiveis.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892871470697021398, guid: 4d14bb081f1654a469371038e75cff9c,
+        type: 3}
       propertyPath: sequenciaCena
       value: 
       objectReference: {fileID: 1315477276}
