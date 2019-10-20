@@ -878,7 +878,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1757172136}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1946504505}
+        m_MethodName: Sair
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1757172136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,11 +1098,6 @@ PrefabInstance:
         type: 3}
       propertyPath: _zSpace
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9124926480396953412, guid: e4f8497df20dc994d95f831930abfc6a,
-        type: 3}
-      propertyPath: dirty
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8510015565571201041, guid: e4f8497df20dc994d95f831930abfc6a,
         type: 3}
@@ -1822,6 +1828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124926480396953412, guid: e4f8497df20dc994d95f831930abfc6a,
+        type: 3}
+      propertyPath: dirty
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9124926480396953412, guid: e4f8497df20dc994d95f831930abfc6a,
         type: 3}
