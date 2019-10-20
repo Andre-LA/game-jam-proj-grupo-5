@@ -1,26 +1,51 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class MenuPrincipalScript : MonoBehaviour
 {
-    public Transform camera;
     public Animator _animator;
+        
+    public void BotaoJogar()
+    {
+        _animator.Play("CameraJogar");
+        StartCoroutine(CarregaCena(1f));
+    }
 
     public void BotaoSobre()
     {
-        _animator.Play("Camera_Sobre");
+        _animator.Play("CameraSobre");
     }
 
-    public void Voltar()
+    public void BotaoSobreVoltar()
     {
-        _animator.Play("Camera_Sobre_Volta");
+        _animator.Play("CameraSobre Volta");
     }
-    public void Sobe()
+    public void BotaoComoJogar()
     {
-        _animator.Play("CameraSobe");
+        _animator.Play("CameraComoJogar");
     }
-    public void SobeVolta()
+    public void BotaoComoJogarVolta()
     {
-        _animator.Play("CameraSobe");
+        _animator.Play("CameraComoJogar Volta");
     }
+    public void BotaoSair()
+    {
+        _animator.Play("CameraSair");   
+    }
+    public void BotaoSairVolta()
+    {
+        _animator.Play("CameraSair Volta");
+    }
+    public void SaidaConfirmada()
+    {
+        Application.Quit();
+    }
+
+    IEnumerator CarregaCena(float segundos)
+    {
+        yield return new WaitForSeconds(segundos);
+        SceneManager.LoadScene("D1C1_quarto");
+    }
+ 
 }
