@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a64e5b0e436d4bed9780211ae245f7b, type: 3}
+  m_Name: SerenaPijama_Data
+  m_EditorClassIdentifier: 
+  dataName: SerenaPijama
+  dragonBonesJSON: {fileID: 4900000, guid: 3ca5760738ac1dd44b9d35adf442c82a, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: ca465a3a70610b54c85c55b97395f7a1, type: 3}
+    texture: {fileID: 2800000, guid: d4e94e193f354684a8f3d47f3e87dd25, type: 3}
+    material: {fileID: 2100000, guid: 13d184fc56851f847ae276522e250967, type: 2}
+    uiMaterial: {fileID: 0}
