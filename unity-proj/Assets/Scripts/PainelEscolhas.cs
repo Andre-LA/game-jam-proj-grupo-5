@@ -35,7 +35,7 @@ public class PainelEscolhas : MonoBehaviour
     }
     
     public static void AbrirEscolhas(string escolhas) { ObterInstancia()._AbrirEscolhas(escolhas); }
-    public static void AbrirTexto(string txtId) { ObterInstancia()._AbrirTexto(txtId); }
+    public static void AbrirTexto(string txtId) {  ObterInstancia()._AbrirTexto(txtId); }
     
     
     public void _AbrirEscolhas(string escolhas)
@@ -65,6 +65,8 @@ public class PainelEscolhas : MonoBehaviour
             
             txtId = txtId.Substring(1);
         }
+        
+        Debug.Log("::::");
     
         alternativas.SetActive(false);
         txt.SetActive(true);
@@ -75,18 +77,14 @@ public class PainelEscolhas : MonoBehaviour
 
     private IEnumerator Escrever(string dialogo)
     {
-        yield return new WaitForSeconds(1f);
-        
-        foreach (char letra in dialogo)
-        {
-            texto.text += letra;
-            yield return new WaitForSeconds(0.02f);
-        }
-
-        yield return new WaitForSeconds(3f);
-        
-        
-        txt.SetActive(false);
-        sequenciaCena.Proximo();
+        yield return new WaitForSeconds(1f);
+        foreach (char letra in dialogo)
+        {
+            texto.text += letra;
+            yield return new WaitForSeconds(0.02f);
+        }
+        yield return new WaitForSeconds(3f);
+        txt.SetActive(false);
+        sequenciaCena.Proximo();
     }
 }

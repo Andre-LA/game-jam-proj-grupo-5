@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Cenas/dia2/cena3/D2C3_carro.unity
     guid: 46ba4d5d8c9072348b5d3c985512ebfc
   - enabled: 1
+    path: Assets/Cenas/dia2/cena4/D2C4_trabalho.unity
+    guid: 57ef6b005ae11ef428931ad90b7b231c
+  - enabled: 1
     path: Assets/Cenas/dia3/cena1/D3C1_quarto.unity
     guid: bdbfd29f01dd98648b333448260bd2b1
   - enabled: 1

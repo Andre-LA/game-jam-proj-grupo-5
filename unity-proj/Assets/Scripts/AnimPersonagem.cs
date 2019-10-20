@@ -44,9 +44,33 @@ public class AnimPersonagem : MonoBehaviour
     {
         dragonBonesScript.armature.flipX = def != 0;
     }
-    
+
+    public void RemotoFliparX(string obj_int)
+    {
+        string[] ids = obj_int.Split('.');
+        GameObject remotoGbj = GameObject.Find(ids[0]);
+        if (remotoGbj == null)
+            Debug.LogWarning("GameObject \"" + ids[0] + "\" não encontrado");
+
+        DragonBones.UnityArmatureComponent dbs =
+            remotoGbj.GetComponent<DragonBones.UnityArmatureComponent>();
+        dbs.armature.flipX = int.Parse(ids[1]) != 0;
+    }
+
     public void FliparY(int def)
     {
         dragonBonesScript.armature.flipY = def != 0;
+    }
+
+    public void RemotoFliparY(string obj_int)
+    {
+        string[] ids = obj_int.Split('.');
+        GameObject remotoGbj = GameObject.Find(ids[0]);
+        if (remotoGbj == null)
+            Debug.LogWarning("GameObject \"" + ids[0] + "\" não encontrado");
+
+        DragonBones.UnityArmatureComponent dbs =
+            remotoGbj.GetComponent<DragonBones.UnityArmatureComponent>();
+        dbs.armature.flipY = int.Parse(ids[1]) != 0;
     }
 }

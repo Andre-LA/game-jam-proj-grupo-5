@@ -30,6 +30,7 @@ public class FadeOut : MonoBehaviour
     
     IEnumerator CR_FadePraPreto(float a, float b, bool irPraProxFase)
     {
+        Debug.LogWarning("AAAAAAAAAAAAAAAH");
         float t = 0;
         float _t = Time.time;
         
