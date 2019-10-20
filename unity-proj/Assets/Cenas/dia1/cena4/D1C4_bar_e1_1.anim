@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: D1C2_trabalho_e0
+  m_Name: D1C4_bar_e1_1
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -54,7 +54,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4
+    m_StopTime: 0.083333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -131,9 +131,9 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 4
-    functionName: FadePraPreto
-    data: 
+  - time: 0.083333336
+    functionName: AbrirTexto
+    data: Estou sim, mas gostaria de jantar sozinha hoje.
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
