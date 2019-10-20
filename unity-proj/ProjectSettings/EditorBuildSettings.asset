@@ -98,4 +98,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cenas/dia7/cena1/D7C1_quarto.unity
     guid: 4b26f0a5700c26840824f3c0cb7ebf78
+  - enabled: 1
+    path: Assets/Cenas/Fim.unity
+    guid: 5bd7546b72176db4ba57dc50bb8f27d5
   m_configObjects: {}
