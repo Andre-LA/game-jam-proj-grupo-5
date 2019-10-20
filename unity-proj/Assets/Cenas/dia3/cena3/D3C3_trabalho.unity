@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 393904479}
   - component: {fileID: 393904483}
   - component: {fileID: 393904484}
+  - component: {fileID: 393904485}
   m_Layer: 0
   m_Name: cena
   m_TagString: Untagged
@@ -230,6 +231,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragonBonesScript: {fileID: 464793719}
+--- !u!114 &393904485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393904478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadb332215e272e40b9f718c9fe54b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  perfil: {fileID: 11400000, guid: f595892b1aacfef488c4d7a7d2a13724, type: 2}
+  intensidade: 0.498
 --- !u!114 &464793719 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7330430612438051541, guid: b73d3c515a6062a408bba8cec6799efc,
@@ -257,7 +272,7 @@ PrefabInstance:
     - target: {fileID: 8972735846357808436, guid: 749dd865f1ed5ad4f8616024033588d7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 215134487189190138, guid: 749dd865f1ed5ad4f8616024033588d7,
         type: 3}
@@ -1148,6 +1163,7 @@ GameObject:
   - component: {fileID: 1739734815}
   - component: {fileID: 1739734814}
   - component: {fileID: 1739734813}
+  - component: {fileID: 1739734816}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1220,6 +1236,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1739734816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739734812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: f595892b1aacfef488c4d7a7d2a13724, type: 2}
 --- !u!1 &2019528578
 GameObject:
   m_ObjectHideFlags: 0

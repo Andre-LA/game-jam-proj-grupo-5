@@ -202,6 +202,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 7.9666667
+    functionName: AtualizaPerfil
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 7.983333
     functionName: AbrirEscolhas
     data: "T\xE1 indo... ha ha;N\xE3o falar nada;Est\xE1 \xF3timo! E o seu? T\xEAm
