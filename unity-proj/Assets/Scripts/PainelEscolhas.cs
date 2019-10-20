@@ -14,7 +14,7 @@ public class PainelEscolhas : MonoBehaviour
     
     static PainelEscolhas ObterInstancia()
     {
-        if (instancia == null);
+        if (instancia == null)
             instancia = FindObjectOfType<PainelEscolhas>();
         return instancia;
     }
