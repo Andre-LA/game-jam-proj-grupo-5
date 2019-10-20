@@ -103,7 +103,7 @@ namespace DragonBones
         protected int _playTimes = 0;
         [Range(-2f, 2f)]
         [SerializeField]
-        public float _timeScale = 1.0f;
+        protected float _timeScale = 1.0f;
 
         [SerializeField]
         internal SortingMode _sortingMode = SortingMode.SortByZ;

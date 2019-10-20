@@ -4,8 +4,8 @@ public class AnimPersonagem : MonoBehaviour
 {
     public DragonBones.UnityArmatureComponent dragonBonesScript;
 
-    public void _MudarVelocidade(float val)
+    public void TocarAnim(string nome)
     {
-        dragonBonesScript._timeScale = val;
+        dragonBonesScript.animation.Play(nome, 1);
     }
 }
