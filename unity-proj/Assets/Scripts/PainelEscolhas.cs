@@ -79,7 +79,7 @@ public class PainelEscolhas : MonoBehaviour
         foreach (char letra in dialogo)
         {
             texto.text += letra;
-            yield return new WaitForSeconds(0.08f);
+            yield return new WaitForSeconds(0.02f);
         }
 
         yield return new WaitForSeconds(1f);
