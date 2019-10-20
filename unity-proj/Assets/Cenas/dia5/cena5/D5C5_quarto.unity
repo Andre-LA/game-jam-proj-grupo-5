@@ -1154,7 +1154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ativadorCenaAlvo: {fileID: 1351072747}
   indice: -1
-  sequencia: []
+  sequencia:
+  - D5C5_quarto_e0_2
 --- !u!114 &1351072747
 MonoBehaviour:
   m_ObjectHideFlags: 0
