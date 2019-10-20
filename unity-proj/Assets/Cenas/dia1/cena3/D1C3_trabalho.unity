@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 197102747}
   - component: {fileID: 197102749}
   - component: {fileID: 197102750}
+  - component: {fileID: 197102751}
   m_Layer: 0
   m_Name: cena
   m_TagString: Untagged
@@ -264,6 +265,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeOut: {fileID: 1060441064}
+--- !u!114 &197102751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197102745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111abe579ffac41488fdc1d55dfba5a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sons:
+  - {fileID: 8300000, guid: 9e474370338bd32419d2f7f2fbb3f053, type: 3}
+  - {fileID: 8300000, guid: 0f2f52a1dedba334293d8ee4d5388ce1, type: 3}
+  - {fileID: 8300000, guid: fecf768a33f93b741b88093173f4b579, type: 3}
+  - {fileID: 8300000, guid: 5b618831dc8a10840a67ea5cfd42892c, type: 3}
+  - {fileID: 8300000, guid: 0b62dc96a4de1c844a0bb56329f4c8c8, type: 3}
+  - {fileID: 8300000, guid: 7d29c2bd13a4bcf42ba5297a93c9bdec, type: 3}
+  - {fileID: 8300000, guid: 07902b4c71ad75346bb6f20060c896a6, type: 3}
+  - {fileID: 8300000, guid: d3a8989ef41c5724db7823581436d449, type: 3}
+  - {fileID: 8300000, guid: 9983b5feaed1f4a4eb8fac662b455acb, type: 3}
+  - {fileID: 8300000, guid: 66d3cbc6a68ba3943b0be93f33254684, type: 3}
+  - {fileID: 8300000, guid: 6823c30a6ec876345b88af230937205c, type: 3}
 --- !u!1 &465621224
 GameObject:
   m_ObjectHideFlags: 0

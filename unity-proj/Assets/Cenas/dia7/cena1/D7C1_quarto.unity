@@ -361,26 +361,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8892871470463018248, guid: 4d14bb081f1654a469371038e75cff9c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892871470697021398, guid: 4d14bb081f1654a469371038e75cff9c,
-        type: 3}
-      propertyPath: sequenciasPossiveis.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892871470697021398, guid: 4d14bb081f1654a469371038e75cff9c,
-        type: 3}
-      propertyPath: sequenciasPossiveis.Array.data[0]
-      value: 
-      objectReference: {fileID: 1383967071}
     - target: {fileID: 8892871470697021398, guid: 4d14bb081f1654a469371038e75cff9c,
         type: 3}
       propertyPath: sequenciaCena
       value: 
       objectReference: {fileID: 1383967071}
+    - target: {fileID: 1103686959, guid: 4d14bb081f1654a469371038e75cff9c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d14bb081f1654a469371038e75cff9c, type: 3}
 --- !u!114 &589932543 stripped
@@ -650,6 +639,7 @@ GameObject:
   - component: {fileID: 1383967074}
   - component: {fileID: 1383967075}
   - component: {fileID: 1383967076}
+  - component: {fileID: 1383967077}
   m_Layer: 0
   m_Name: cena
   m_TagString: Untagged
@@ -865,6 +855,30 @@ MonoBehaviour:
           m_StringArgument: '... Obrigada'
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1383967077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383967069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111abe579ffac41488fdc1d55dfba5a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sons:
+  - {fileID: 8300000, guid: 9e474370338bd32419d2f7f2fbb3f053, type: 3}
+  - {fileID: 8300000, guid: 0f2f52a1dedba334293d8ee4d5388ce1, type: 3}
+  - {fileID: 8300000, guid: fecf768a33f93b741b88093173f4b579, type: 3}
+  - {fileID: 8300000, guid: 5b618831dc8a10840a67ea5cfd42892c, type: 3}
+  - {fileID: 8300000, guid: 0b62dc96a4de1c844a0bb56329f4c8c8, type: 3}
+  - {fileID: 8300000, guid: 7d29c2bd13a4bcf42ba5297a93c9bdec, type: 3}
+  - {fileID: 8300000, guid: 07902b4c71ad75346bb6f20060c896a6, type: 3}
+  - {fileID: 8300000, guid: d3a8989ef41c5724db7823581436d449, type: 3}
+  - {fileID: 8300000, guid: 9983b5feaed1f4a4eb8fac662b455acb, type: 3}
+  - {fileID: 8300000, guid: 66d3cbc6a68ba3943b0be93f33254684, type: 3}
+  - {fileID: 8300000, guid: 6823c30a6ec876345b88af230937205c, type: 3}
 --- !u!1 &1531964494
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +956,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1531964498
 RectTransform:
@@ -1910,6 +1924,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1383967077}
+        m_MethodName: intEmitirEfeitoSonoro
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
