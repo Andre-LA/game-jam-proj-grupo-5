@@ -75,13 +75,15 @@ public class PainelEscolhas : MonoBehaviour
 
     private IEnumerator Escrever(string dialogo)
     {
+        yield return new WaitForSeconds(1f);
+        
         foreach (char letra in dialogo)
         {
             texto.text += letra;
             yield return new WaitForSeconds(0.02f);
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         
         
         txt.SetActive(false);
