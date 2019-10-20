@@ -25,6 +25,15 @@ public class AnimPersonagem : MonoBehaviour
     {
         dragonBonesScript.animation.Play(nome, 0);
     }
+    
+    public void RemotoPararAnim(string gbjn)
+    {
+        GameObject remotoGbj = GameObject.Find(gbjn);
+
+        DragonBones.UnityArmatureComponent dbs = 
+            remotoGbj.GetComponent<DragonBones.UnityArmatureComponent>();
+        dbs.animation.Stop();
+    }
 
     public void PararAnim()
     {
