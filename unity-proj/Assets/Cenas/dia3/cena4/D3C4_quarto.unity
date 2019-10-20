@@ -1059,7 +1059,7 @@ PrefabInstance:
     - target: {fileID: 8972735846357808436, guid: 749dd865f1ed5ad4f8616024033588d7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 215134487189190138, guid: 749dd865f1ed5ad4f8616024033588d7,
         type: 3}
@@ -1410,10 +1410,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1817143349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c125f072b316f34887aea5eb243e688, type: 3}
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuPauseUI: {fileID: 0}
+  profile: {fileID: 11400000, guid: f595892b1aacfef488c4d7a7d2a13724, type: 2}
 --- !u!1 &2060626904
 GameObject:
   m_ObjectHideFlags: 0
