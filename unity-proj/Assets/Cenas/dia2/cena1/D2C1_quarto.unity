@@ -996,7 +996,7 @@ PrefabInstance:
     - target: {fileID: 4950635879774525580, guid: e4f8497df20dc994d95f831930abfc6a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.73
+      value: -16.59
       objectReference: {fileID: 0}
     - target: {fileID: 4950635879774525580, guid: e4f8497df20dc994d95f831930abfc6a,
         type: 3}
@@ -1866,7 +1866,6 @@ GameObject:
   - component: {fileID: 1946504504}
   - component: {fileID: 1946504503}
   - component: {fileID: 1946504502}
-  - component: {fileID: 1946504505}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
