@@ -122,10 +122,10 @@ MonoBehaviour:
         neutralWhiteClip: 10
       basic:
         postExposure: 0
-        temperature: -3
+        temperature: -5
         tint: 0
         hueShift: 0
-        saturation: 0.5
+        saturation: 0.36
         contrast: 0.7
       channelMixer:
         red: {x: 1, y: 0, z: 0}
@@ -135,13 +135,13 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0.8925045, g: 0.93673646, b: 1, a: 0}
-          power: {r: 0.7384467, g: 0.8560418, b: 1, a: 0}
+          slope: {r: 0.81700003, g: 0.848, b: 1, a: 0}
+          power: {r: 0.65, g: 0.71599996, b: 1, a: 0}
           offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift: {r: 1, g: 1, b: 1, a: 0}
+          gamma: {r: 1, g: 1, b: 1, a: 0}
+          gain: {r: 1, g: 1, b: 1, a: 0}
       curves:
         master:
           curve:
@@ -314,17 +314,17 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       colored: 1
-      intensity: 0.08
-      size: 0.95
-      luminanceContribution: 0.67
+      intensity: 0.18
+      size: 0.93
+      luminanceContribution: 0.774
   vignette:
     m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.45
-      smoothness: 0.42
+      intensity: 0.4
+      smoothness: 0.261
       roundness: 1
       mask: {fileID: 0}
       opacity: 1

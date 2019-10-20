@@ -13,6 +13,12 @@ public class PainelEscolhas : MonoBehaviour
     static PainelEscolhas instancia;
 
     private Text texto;
+    static int pontos;
+    static int limitePontos_idx = 0;
+    
+    static readonly int[] limitePontos = {
+        2
+    };
     
     static PainelEscolhas ObterInstancia()
     {
@@ -50,6 +56,17 @@ public class PainelEscolhas : MonoBehaviour
     
     public void _AbrirTexto(string txtId)
     {
+        if (txtId.Contains("@")) {
+            if (pontos < limitePontos[limitePontos_idx]) {
+                sequenciaCena.Proximo();
+                return;
+            }
+                        
+            limitePontos_idx += 1;
+            
+            txtId = txtId.Substring(1);
+        }
+    
         alternativas.SetActive(false);
         txt.SetActive(true);
         texto = txt.transform.Find("fundo2").Find("txt txt").GetComponent<Text>();
@@ -66,6 +83,9 @@ public class PainelEscolhas : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1f);
+        
+        
+        txt.SetActive(false);
         sequenciaCena.Proximo();
     }
 }
