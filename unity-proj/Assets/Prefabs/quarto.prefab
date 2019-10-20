@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 4475836367888020976}
   - component: {fileID: 4475836367888020979}
   - component: {fileID: 7528044230074973967}
+  - component: {fileID: 4926766398553249460}
   m_Layer: 0
   m_Name: porta banheiro spr
   m_TagString: Untagged
@@ -324,3 +325,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4926766398553249460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475836367888020977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559c7723b4d4d114996eca58070c4833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estadoAnim: 
