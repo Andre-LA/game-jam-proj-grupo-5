@@ -11,6 +11,8 @@ public class PainelEscolhas : MonoBehaviour
     public GameObject alternativas, txt;
     
     static PainelEscolhas instancia;
+
+    private Text texto;
     
     static PainelEscolhas ObterInstancia()
     {
@@ -50,6 +52,20 @@ public class PainelEscolhas : MonoBehaviour
     {
         alternativas.SetActive(false);
         txt.SetActive(true);
-        txt.transform.Find("fundo2").Find("txt txt").GetComponent<Text>().text = txtId;
+        texto = txt.transform.Find("fundo2").Find("txt txt").GetComponent<Text>();
+        texto.text = "";
+        StartCoroutine(Escrever(txtId));
+    }
+
+    private IEnumerator Escrever(string dialogo)
+    {
+        foreach (char letra in dialogo)
+        {
+            texto.text += letra;
+            yield return new WaitForSeconds(0.08f);
+        }
+
+        yield return new WaitForSeconds(1f);
+        sequenciaCena.Proximo();
     }
 }
