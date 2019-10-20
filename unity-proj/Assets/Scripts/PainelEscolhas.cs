@@ -83,6 +83,9 @@ public class PainelEscolhas : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1f);
+        
+        
+        txt.SetActive(false);
         sequenciaCena.Proximo();
     }
 }
