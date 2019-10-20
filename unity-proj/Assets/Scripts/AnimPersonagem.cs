@@ -8,4 +8,9 @@ public class AnimPersonagem : MonoBehaviour
     {
         dragonBonesScript.animation.Play(nome, 1);
     }
+
+    public void PararAnim()
+    {
+        dragonBonesScript.animation.Stop();
+    }
 }

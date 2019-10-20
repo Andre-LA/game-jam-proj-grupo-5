@@ -47,5 +47,8 @@ public class MenuPrincipalScript : MonoBehaviour
         yield return new WaitForSeconds(segundos);
         SceneManager.LoadScene("D1C1_quarto");
     }
- 
+
+    public void Update()
+    {
+    }
 }

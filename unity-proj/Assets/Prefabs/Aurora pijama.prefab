@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 6154378434926550296}
   - component: {fileID: 9124926480396953412}
   m_Layer: 0
-  m_Name: Armature
+  m_Name: Aurora Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
