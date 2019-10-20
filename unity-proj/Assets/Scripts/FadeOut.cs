@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FadeOut : MonoBehaviour
 {
@@ -19,15 +20,15 @@ public class FadeOut : MonoBehaviour
     
     void FadePraPreto()
     {
-        StartCoroutine(CR_FadePraPreto(0, 1));
+        StartCoroutine(CR_FadePraPreto(0, 1, true));
     }
     
     void FadePraTransparente()
     {
-        StartCoroutine(CR_FadePraPreto(1, 0));    
+        StartCoroutine(CR_FadePraPreto(1, 0, false));    
     }
     
-    IEnumerator CR_FadePraPreto(float a, float b)
+    IEnumerator CR_FadePraPreto(float a, float b, bool irPraProxFase)
     {
         float t = 0;
         float _t = Time.time;
@@ -44,5 +45,8 @@ public class FadeOut : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+        
+        if (irPraProxFase)
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }
