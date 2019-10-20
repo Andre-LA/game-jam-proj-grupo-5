@@ -18,4 +18,14 @@ public class AnimPersonagem : MonoBehaviour
     {
         dragonBonesScript.animation.Stop();
     }
+    
+    public void FliparX(int def)
+    {
+        dragonBonesScript.armature.flipX = def != 0;
+    }
+    
+    public void FliparY(int def)
+    {
+        dragonBonesScript.armature.flipY = def != 0;
+    }
 }
