@@ -143,7 +143,7 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: -5
+    intParameter: 5
     messageOptions: 0
   - time: 4.483333
     functionName: AbrirTexto

@@ -661,11 +661,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8892871470697021400, guid: 4d14bb081f1654a469371038e75cff9c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8892871468777536401, guid: 4d14bb081f1654a469371038e75cff9c,
         type: 3}
       propertyPath: m_IsActive
@@ -696,6 +691,11 @@ PrefabInstance:
       propertyPath: sequenciasPossiveis.Array.data[2]
       value: 
       objectReference: {fileID: 295745209}
+    - target: {fileID: 8892871470697021400, guid: 4d14bb081f1654a469371038e75cff9c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d14bb081f1654a469371038e75cff9c, type: 3}
 --- !u!114 &870069534 stripped
@@ -932,6 +932,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679237c2f74940441a7e75461bc79bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clipePassos: {fileID: 8300000, guid: 1a60094542f059d42ba2000f4131f32d, type: 3}
+  clipeEscritorio: {fileID: 8300000, guid: 3a4f6514d9d0cc14a9997099c49a08c8, type: 3}
+  clipeBar: {fileID: 8300000, guid: ff11b887feceba4428272ce1b260bcef, type: 3}
+  clipeBuzina: {fileID: 8300000, guid: da20923d7700bf741a75371a187d716b, type: 3}
+  clipeSomCama: {fileID: 8300000, guid: 7759b747d3dc16e43a983ac5b4fb11ab, type: 3}
+  clipeChuva: {fileID: 8300000, guid: 034d9436eac8e634fb24153a1343b98e, type: 3}
+  clipeChuveiro: {fileID: 8300000, guid: 65b8acbc7e97ba340b712d8ddb182cfb, type: 3}
+  clipeF: {fileID: 0}
+  clipeG: {fileID: 0}
+  clipeCelular: {fileID: 8300000, guid: 232053b4efdd50c43afb54a4eb85050f, type: 3}
+  clipeLavarRosto: {fileID: 8300000, guid: 148de17bcc04eca4fb8c143447f51505, type: 3}
+  clipeDirigindo: {fileID: 8300000, guid: b39e4d134ff9b43488b725c662c41567, type: 3}
+  clipebatidaCarro: {fileID: 8300000, guid: fa5755b2b5e42514f91e359f06a88608, type: 3}
 --- !u!1 &1459014797
 GameObject:
   m_ObjectHideFlags: 0

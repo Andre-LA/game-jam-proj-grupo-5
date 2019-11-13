@@ -30,7 +30,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 
+    path:
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -86,7 +86,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: 
+    path:
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -105,7 +105,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: 
+    path:
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -124,7 +124,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: 
+    path:
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
@@ -140,21 +140,21 @@ AnimationClip:
     messageOptions: 0
   - time: 0.016666668
     functionName: PararAnim
-    data: 
+    data:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.13333334
     functionName: EmitirEfeitoSonoro
-    data: 
+    data:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: -8
+    intParameter: 1
     messageOptions: 0
   - time: 4.016667
     functionName: FadePraPreto
-    data: 
+    data:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

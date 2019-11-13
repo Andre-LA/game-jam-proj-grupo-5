@@ -176,17 +176,17 @@ AnimationClip:
     messageOptions: 0
   - time: 0.016666668
     functionName: PararAnim
-    data: 
+    data:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.15
     functionName: EmitirEfeitoSonoro
-    data: 
+    data:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: -8
+    intParameter: 1
     messageOptions: 0
   - time: 1.5166667
     functionName: RemotoTocarAnim
@@ -211,7 +211,7 @@ AnimationClip:
     messageOptions: 0
   - time: 7.9666667
     functionName: AtualizaPerfil
-    data: 
+    data:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

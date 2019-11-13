@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class CaixaDeSom : MonoBehaviour
 {
-    // algum desses será o escritório
-    // algum desses será o bar
 
     public enum EfeitosSonoros {
         Passos,       // 0
-        B,            // 1
-        C,            // 2
+        Escritorio,   // 1
+        Bar,          // 2
         Buzina,       // 3
         SomCama,      // 4
-        E,            // 5
+        Chuva,        // 5
         Chuveiro,     // 6
         F,            // 7
         G,            // 8
@@ -21,42 +19,39 @@ public class CaixaDeSom : MonoBehaviour
         lavarRosto,   // 10
         Dirigindo,    // 11
         batidaCarro,  // 12
-        L,            // 13
     }
 
-    public AudioClip clipePassos;      // 0
-    public AudioClip clipeB;           // 1
-    public AudioClip clipeC;           // 2
-    public AudioClip clipeBuzina;      // 3
-    public AudioClip clipeSomCama;     // 4
-    public AudioClip clipeE;           // 5
-    public AudioClip clipeChuveiro;    // 6
-    public AudioClip clipeF;           // 7
-    public AudioClip clipeG;           // 8
-    public AudioClip clipeCelular;     // 9
-    public AudioClip clipeLavarRosto;  // 10
-    public AudioClip clipeDirigindo;   // 11
-    public AudioClip clipeBatidaCarro; // 12
-    public AudioClip clipeL;           // 13
+    public AudioClip clipePassos;       // 0
+    public AudioClip clipeEscritorio;   // 1
+    public AudioClip clipeBar;          // 2
+    public AudioClip clipeBuzina;       // 3
+    public AudioClip clipeSomCama;      // 4
+    public AudioClip clipeChuva;        // 5
+    public AudioClip clipeChuveiro;     // 6
+    public AudioClip clipeF;            // 7
+    public AudioClip clipeG;            // 8
+    public AudioClip clipeCelular;      // 9
+    public AudioClip clipeLavarRosto;   // 10
+    public AudioClip clipeDirigindo;    // 11
+    public AudioClip clipebatidaCarro;  // 12
 
 
     AudioClip ClipeCorrespondente(EfeitosSonoros efeito) {
         switch (efeito)
         {
-            case EfeitosSonoros.Passos:      return clipePassos;      // 0
-            case EfeitosSonoros.B:           return clipeB;           // 1
-            case EfeitosSonoros.C:           return clipeC;           // 2
-            case EfeitosSonoros.Buzina:      return clipeBuzina;      // 3
-            case EfeitosSonoros.SomCama:     return clipeSomCama;     // 4
-            case EfeitosSonoros.E:           return clipeE;           // 5
-            case EfeitosSonoros.Chuveiro:    return clipeChuveiro;    // 6
-            case EfeitosSonoros.F:           return clipeF;           // 7
-            case EfeitosSonoros.G:           return clipeG;           // 8
-            case EfeitosSonoros.Celular:     return clipeCelular;     // 9
-            case EfeitosSonoros.lavarRosto:  return clipeLavarRosto;  // 10
-            case EfeitosSonoros.Dirigindo:   return clipeDirigindo;   // 11
-            case EfeitosSonoros.batidaCarro: return clipeBatidaCarro; // 12
-            case EfeitosSonoros.L:           return clipeL;           // 13
+            case EfeitosSonoros.Passos:      return clipePassos;       // 0
+            case EfeitosSonoros.Escritorio:  return clipeEscritorio;   // 1
+            case EfeitosSonoros.Bar:         return clipeBar;          // 2
+            case EfeitosSonoros.Buzina:      return clipeBuzina;       // 3
+            case EfeitosSonoros.SomCama:     return clipeSomCama;      // 4
+            case EfeitosSonoros.Chuva:       return clipeChuva;        // 5
+            case EfeitosSonoros.Chuveiro:    return clipeChuveiro;     // 6
+            case EfeitosSonoros.F:           return clipeF;            // 7
+            case EfeitosSonoros.G:           return clipeG;            // 8
+            case EfeitosSonoros.Celular:     return clipeCelular;      // 9
+            case EfeitosSonoros.lavarRosto:  return clipeLavarRosto;   // 10
+            case EfeitosSonoros.Dirigindo:   return clipeDirigindo;    // 11
+            case EfeitosSonoros.batidaCarro: return clipebatidaCarro;  // 12
         }
         return null;
     }

@@ -136,14 +136,7 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: -8
-    messageOptions: 0
-  - time: 0.06666667
-    functionName: EmitirEfeitoSonoro
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: -8
+    intParameter: 1
     messageOptions: 0
   - time: 3
     functionName: AbrirTexto
