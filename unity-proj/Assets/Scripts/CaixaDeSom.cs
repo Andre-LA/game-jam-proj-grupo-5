@@ -65,7 +65,15 @@ public class CaixaDeSom : MonoBehaviour
 
         AudioSource novaCaixa_as = novaCaixa.AddComponent<AudioSource>();
         novaCaixa_as.playOnAwake = false;
-        novaCaixa_as.loop = false;
+
+        if (
+            efeito == EfeitosSonoros.Bar  ||
+            efeito == EfeitosSonoros.Escritorio
+        )
+            novaCaixa_as.loop = true;
+        else
+            novaCaixa_as.loop = false;
+
         novaCaixa_as.clip = ClipeCorrespondente(efeito);
         novaCaixa_as.Play();
     }

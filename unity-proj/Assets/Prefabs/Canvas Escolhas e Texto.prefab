@@ -85,7 +85,7 @@ Animator:
   m_GameObject: {fileID: 1103686959}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7e6a09cbef2af504c80ac889aa5cbe1d, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2725923843378592788}
+      - m_Target: {fileID: 0}
         m_MethodName: intEmitirEfeitoSonoro
         m_Mode: 3
         m_Arguments:
@@ -607,7 +607,6 @@ GameObject:
   - component: {fileID: 8892871469712647969}
   - component: {fileID: 8892871469712647970}
   - component: {fileID: 8892871469712647971}
-  - component: {fileID: 2725923843378592788}
   m_Layer: 5
   m_Name: Canvas Escolhas e Texto
   m_TagString: Untagged
@@ -697,30 +696,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2725923843378592788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8892871469712647972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 111abe579ffac41488fdc1d55dfba5a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sons:
-  - {fileID: 8300000, guid: 9e474370338bd32419d2f7f2fbb3f053, type: 3}
-  - {fileID: 8300000, guid: 0f2f52a1dedba334293d8ee4d5388ce1, type: 3}
-  - {fileID: 8300000, guid: fecf768a33f93b741b88093173f4b579, type: 3}
-  - {fileID: 8300000, guid: 5b618831dc8a10840a67ea5cfd42892c, type: 3}
-  - {fileID: 8300000, guid: 0b62dc96a4de1c844a0bb56329f4c8c8, type: 3}
-  - {fileID: 8300000, guid: 7d29c2bd13a4bcf42ba5297a93c9bdec, type: 3}
-  - {fileID: 8300000, guid: 07902b4c71ad75346bb6f20060c896a6, type: 3}
-  - {fileID: 8300000, guid: d3a8989ef41c5724db7823581436d449, type: 3}
-  - {fileID: 8300000, guid: 9983b5feaed1f4a4eb8fac662b455acb, type: 3}
-  - {fileID: 8300000, guid: 66d3cbc6a68ba3943b0be93f33254684, type: 3}
-  - {fileID: 8300000, guid: 6823c30a6ec876345b88af230937205c, type: 3}
 --- !u!1 &8892871469903022508
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,7 +825,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2725923843378592788}
+      - m_Target: {fileID: 0}
         m_MethodName: intEmitirEfeitoSonoro
         m_Mode: 3
         m_Arguments:
@@ -1001,7 +976,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2725923843378592788}
+      - m_Target: {fileID: 0}
         m_MethodName: intEmitirEfeitoSonoro
         m_Mode: 3
         m_Arguments:
@@ -1340,7 +1315,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 16
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
