@@ -242,23 +242,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 190412842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 111abe579ffac41488fdc1d55dfba5a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 679237c2f74940441a7e75461bc79bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sons:
-  - {fileID: 8300000, guid: 9e474370338bd32419d2f7f2fbb3f053, type: 3}
-  - {fileID: 8300000, guid: 0f2f52a1dedba334293d8ee4d5388ce1, type: 3}
-  - {fileID: 8300000, guid: fecf768a33f93b741b88093173f4b579, type: 3}
-  - {fileID: 8300000, guid: 5b618831dc8a10840a67ea5cfd42892c, type: 3}
-  - {fileID: 8300000, guid: 0b62dc96a4de1c844a0bb56329f4c8c8, type: 3}
-  - {fileID: 8300000, guid: 7d29c2bd13a4bcf42ba5297a93c9bdec, type: 3}
-  - {fileID: 8300000, guid: 07902b4c71ad75346bb6f20060c896a6, type: 3}
-  - {fileID: 8300000, guid: d3a8989ef41c5724db7823581436d449, type: 3}
-  - {fileID: 8300000, guid: 9983b5feaed1f4a4eb8fac662b455acb, type: 3}
-  - {fileID: 8300000, guid: 66d3cbc6a68ba3943b0be93f33254684, type: 3}
-  - {fileID: 8300000, guid: 6823c30a6ec876345b88af230937205c, type: 3}
-  - {fileID: 8300000, guid: 5a035e09d7c185f418af2c1f042ca02d, type: 3}
-  - {fileID: 8300000, guid: e5843ff05b6033846a2c5c92a546b52a, type: 3}
+  clipePassos: {fileID: 8300000, guid: 1a60094542f059d42ba2000f4131f32d, type: 3}
+  clipeB: {fileID: 0}
+  clipeC: {fileID: 0}
+  clipeBuzina: {fileID: 8300000, guid: da20923d7700bf741a75371a187d716b, type: 3}
+  clipeSomCama: {fileID: 8300000, guid: 7759b747d3dc16e43a983ac5b4fb11ab, type: 3}
+  clipeE: {fileID: 0}
+  clipeChuveiro: {fileID: 8300000, guid: 65b8acbc7e97ba340b712d8ddb182cfb, type: 3}
+  clipeF: {fileID: 0}
+  clipeG: {fileID: 0}
+  clipeH: {fileID: 0}
+  clipeLavarRosto: {fileID: 8300000, guid: 148de17bcc04eca4fb8c143447f51505, type: 3}
+  clipeDirigindo: {fileID: 8300000, guid: b39e4d134ff9b43488b725c662c41567, type: 3}
+  clipeBatidaCarro: {fileID: 8300000, guid: fa5755b2b5e42514f91e359f06a88608, type: 3}
+  clipeL: {fileID: 0}
 --- !u!114 &398545697 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7330430612438051541, guid: b73d3c515a6062a408bba8cec6799efc,
@@ -447,15 +447,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.7407312
       objectReference: {fileID: 0}
-    - target: {fileID: 4797298000009491668, guid: 6027f377155ddfe4a85222930e1b8534,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7342880643374053998, guid: 6027f377155ddfe4a85222930e1b8534,
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797298000009491668, guid: 6027f377155ddfe4a85222930e1b8534,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6027f377155ddfe4a85222930e1b8534, type: 3}
@@ -1357,6 +1357,11 @@ PrefabInstance:
       propertyPath: _sortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9125557297207322317, guid: b73d3c515a6062a408bba8cec6799efc,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8029014699665472762, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}
       propertyPath: m_SortingOrder
@@ -1381,11 +1386,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9125557297207322317, guid: b73d3c515a6062a408bba8cec6799efc,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8327622730862705090, guid: b73d3c515a6062a408bba8cec6799efc,
         type: 3}

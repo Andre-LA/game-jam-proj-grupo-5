@@ -404,23 +404,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 661193603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 111abe579ffac41488fdc1d55dfba5a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 679237c2f74940441a7e75461bc79bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sons:
-  - {fileID: 8300000, guid: 9e474370338bd32419d2f7f2fbb3f053, type: 3}
-  - {fileID: 8300000, guid: 0f2f52a1dedba334293d8ee4d5388ce1, type: 3}
-  - {fileID: 8300000, guid: fecf768a33f93b741b88093173f4b579, type: 3}
-  - {fileID: 8300000, guid: 5b618831dc8a10840a67ea5cfd42892c, type: 3}
-  - {fileID: 8300000, guid: 0b62dc96a4de1c844a0bb56329f4c8c8, type: 3}
-  - {fileID: 8300000, guid: 7d29c2bd13a4bcf42ba5297a93c9bdec, type: 3}
-  - {fileID: 8300000, guid: 07902b4c71ad75346bb6f20060c896a6, type: 3}
-  - {fileID: 8300000, guid: d3a8989ef41c5724db7823581436d449, type: 3}
-  - {fileID: 8300000, guid: 9983b5feaed1f4a4eb8fac662b455acb, type: 3}
-  - {fileID: 8300000, guid: 66d3cbc6a68ba3943b0be93f33254684, type: 3}
-  - {fileID: 8300000, guid: 6823c30a6ec876345b88af230937205c, type: 3}
-  - {fileID: 8300000, guid: 5a035e09d7c185f418af2c1f042ca02d, type: 3}
-  - {fileID: 8300000, guid: e5843ff05b6033846a2c5c92a546b52a, type: 3}
+  clipePassos: {fileID: 8300000, guid: 1a60094542f059d42ba2000f4131f32d, type: 3}
+  clipeB: {fileID: 0}
+  clipeC: {fileID: 0}
+  clipeD: {fileID: 0}
+  clipeSomCama: {fileID: 8300000, guid: 7759b747d3dc16e43a983ac5b4fb11ab, type: 3}
+  clipeE: {fileID: 0}
+  clipeChuveiro: {fileID: 8300000, guid: 65b8acbc7e97ba340b712d8ddb182cfb, type: 3}
+  clipeF: {fileID: 0}
+  clipeG: {fileID: 0}
+  clipeH: {fileID: 0}
+  clipeLavarRosto: {fileID: 8300000, guid: 148de17bcc04eca4fb8c143447f51505, type: 3}
+  clipeDirigindo: {fileID: 0}
+  clipeK: {fileID: 0}
+  clipeL: {fileID: 0}
 --- !u!1 &727760494
 GameObject:
   m_ObjectHideFlags: 0

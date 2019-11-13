@@ -52,13 +52,6 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: AbrirTexto
-    data: "Ai, n\xE3o aguento mais meu trabalho..."
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
     functionName: TocarAnim
     data: Sit
     objectReferenceParameter: {fileID: 0}
@@ -66,6 +59,13 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.016666668
+    functionName: AbrirTexto
+    data: "Ai, n\xE3o aguento mais meu trabalho..."
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.033333335
     functionName: PararAnim
     data: 
     objectReferenceParameter: {fileID: 0}

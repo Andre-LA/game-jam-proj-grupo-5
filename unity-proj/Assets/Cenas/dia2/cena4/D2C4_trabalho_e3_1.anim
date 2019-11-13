@@ -175,15 +175,15 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 4.9166665
-    functionName: RemotoFliparX
-    data: Macheetos.1
+    functionName: RemotoTocarAnim
+    data: Macheetos.walk.0
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 4.9166665
-    functionName: RemotoTocarAnim
-    data: Macheetos.walk.0
+  - time: 4.983333
+    functionName: RemotoFliparX
+    data: Macheetos.1
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

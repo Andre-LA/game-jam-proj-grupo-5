@@ -2134,7 +2134,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Sons utilizados:\nLying on bed por avakas licenciado sob CC-BY\nCell Phone\r
     Vibrate por JasonElrod licenciado sob CC-BY\nShower, A por InspectorJ licenciado\r
-    sob CC-BY\nSteady Rain por pulswelle licenciado sob CC-BY\nnin.music.bar por andriala\r
+    sob CC-BY\nSteady Rain por pulswelle licenciado sob CC-BY\nin.music.bar por andriala\r
     licenciado sob CC-BY-NC\nStreet_market_1 por susiq12 licenciado sob CC-BY\nCar
     - drive away por soundmary licenciado sob CC-BY\n\nLicen\xE7as dispon\xEDveis
     em:\nCC-BY: https://creativecommons.org/licenses/by/3.0/\nCC-BY-NC: https://creativecommons.org/licenses/by-nc/3.0/"
@@ -2258,7 +2258,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982834364}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c125f072b316f34887aea5eb243e688, type: 3}
   m_Name: 

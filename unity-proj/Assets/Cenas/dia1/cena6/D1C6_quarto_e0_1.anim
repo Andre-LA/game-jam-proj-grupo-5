@@ -491,13 +491,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 4
     messageOptions: 0
-  - time: 6.983333
-    functionName: FadePraPreto
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 10.1
     functionName: FadePraPreto
     data: 
